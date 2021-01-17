@@ -83,8 +83,6 @@ html {
     width: 90rem;
 }
 
-
-
 /* End Banner Area */
 
 /* Start About Area */
@@ -195,7 +193,7 @@ html {
 
 /* Publications Area */
 
-.site-main .pub-area .pub-title {
+site-main .pub-area .pub-title {
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
@@ -240,8 +238,8 @@ html {
 
 .site-main>.services-area .services {
     background: rgba(242, 247, 248, 0.973);
-    width: 16rem;
-    height: 18rem;
+    width: 18rem;
+    height: 23rem;
     margin: 5rem .5rem;
     transition: box-shadow .5s ease;
 }
@@ -255,83 +253,8 @@ html {
     font-weight: 600;
 }
 
-
-
 /* End Services Area */
 
-
-/* Project Area */
-
-.site-main .project-area {
-    padding: 2rem 0;
-}
-
-.site-main .project-area .button-group button {
-    background: transparent;
-    border: none;
-    font: normal 500 16px/130px var(--roboto);
-    text-transform: uppercase;
-}
-
-.site-main .project-area .button-group button+button {
-    padding-left: 3rem;
-}
-
-.site-main .project-area .grid .our-project>.title h4 {
-    font: normal 700 20px/20px var(--roboto);
-}
-
-.site-main .project-area .grid .our-project .img div:hover img {
-    filter: brightness(1.2) drop-shadow(1px 8px 30px #b1afaf);
-}
-
-
-/* End Project Area */
-
-
-/* About Me */
-
-.site-main .about-area .about-title p {
-    padding: 1rem 7rem;
-}
-
-.site-main .about-area .client {
-    background: #ffffff10;
-    box-shadow: var(--box-shadow);
-    margin: 3rem 0rem;
-}
-
-.site-main .about-area .client .client-img {
-    padding: 2rem;
-}
-
-.site-main .about-area .client .about-client {
-    padding-top: 2rem;
-}
-
-.site-main .about-area .client .about-client h4 {
-    font: normal 500 21px/ 20px var(--roboto);
-}
-
-.site-main .about-area .client .about-client p {
-    font-size: 14px;
-}
-
-.site-main .about-area .owl-carousel .owl-item {
-    display: flex;
-    justify-content: center;
-    padding: 0 1.5rem;
-}
-
-.site-main .about-area .owl-carousel .owl-dots .owl-dot.active span {
-    background: var(--primary-color);
-    width: 12px;
-    height: 12px;
-}
-
-
-
-/* End About Me */
 
 /* Subscribe me */
 
